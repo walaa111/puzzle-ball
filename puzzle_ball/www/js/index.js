@@ -62,7 +62,7 @@ var app = {
 
         this.receivedEvent('deviceready');
 
- var inAppBrowserbRef = cordova.InAppBrowser.open('https://www.snappygames.com/en/games/jet-packer', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
+ var inAppBrowserbRef = cordova.InAppBrowser.open('https://www.snappygames.com/en/games/jet-packer/play', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
 
 /*
 inAppBrowserbRef.addEventListener('loadstart', function() {
